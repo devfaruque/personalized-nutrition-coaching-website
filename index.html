@@ -1,0 +1,522 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="https://static.readdy.ai/static/e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriLife - Transform Your Health with Personalized Nutrition</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#57b5e7',secondary:'#8dd3c7'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+    </style>
+</head>
+<body class="bg-white">
+    <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-['Pacifico'] text-primary">Your Brand Logo</h1>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Meal Plans</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Coaching</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Blog</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                </div>
+                <button class="md:hidden w-8 h-8 flex items-center justify-center">
+                    <i class="ri-menu-line text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative min-h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=Fresh%20colorful%20vegetables%20and%20healthy%20organic%20foods%20arranged%20beautifully%20on%20a%20clean%20white%20marble%20surface%2C%20natural%20lighting%2C%20vibrant%20greens%20and%20oranges%2C%20minimal%20composition%2C%20left%20side%20has%20clean%20white%20space%20for%20text%20overlay%2C%20right%20side%20shows%20abundant%20fresh%20produce%20including%20leafy%20greens%2C%20colorful%20bell%20peppers%2C%20tomatoes%2C%20avocados%2C%20creating%20a%20gradient%20transition%20from%20white%20to%20colorful%20food%20photography%2C%20professional%20food%20styling%2C%20clean%20modern%20aesthetic&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent"></div>
+        <div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl">
+                <h1 class="text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                    Transform Your Health with 
+                    <span class="text-primary">Personalized Nutrition</span>
+                </h1>
+                <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+                    Get customized meal plans and expert coaching tailored to your unique goals, lifestyle, and preferences. Start your journey to optimal health today.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-primary text-white px-8 py-4 !rounded-button text-lg font-semibold hover:bg-primary/90 transition-colors whitespace-nowrap">
+                        Get Your Meal Plan
+                    </button>
+                    <button class="border-2 border-primary text-primary px-8 py-4 !rounded-button text-lg font-semibold hover:bg-primary hover:text-white transition-colors whitespace-nowrap">
+                        Book Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Why Choose NutriLife?</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    We combine science-backed nutrition with personalized coaching to help you achieve lasting results.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="ri-restaurant-line text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Personalized Meal Plans</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Custom meal plans designed specifically for your goals, dietary preferences, and lifestyle. No one-size-fits-all solutions.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm text-center">
+                    <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="ri-user-heart-line text-2xl text-secondary"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Expert Coaching</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        One-on-one guidance from certified nutritionists who understand your unique challenges and support your journey.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="ri-trophy-line text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Proven Results</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Join thousands of clients who have transformed their health and achieved their wellness goals with our proven approach.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">How It Works</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Getting started is simple. Follow these three easy steps to begin your transformation.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-white">1</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Complete Assessment</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Fill out our comprehensive health and lifestyle questionnaire to help us understand your unique needs and goals.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-white">2</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Get Your Plan</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Receive your personalized meal plan and nutrition guidelines crafted by our expert team of nutritionists.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-white">3</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Start Your Journey</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Begin following your plan with ongoing support and adjustments to ensure you achieve your health goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Featured Meal Plans</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Choose from our most popular meal plans designed for different goals and lifestyles.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+                    <img src="https://readdy.ai/api/search-image?query=Healthy%20weight%20loss%20meal%20with%20grilled%20chicken%20breast%2C%20quinoa%2C%20roasted%20vegetables%20and%20fresh%20greens%20on%20a%20white%20plate%2C%20clean%20food%20photography%2C%20natural%20lighting%2C%20colorful%20and%20appetizing%20presentation%2C%20professional%20styling&width=400&height=300&seq=meal001&orientation=landscape" alt="Weight Loss Plan" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Weight Loss Plan</h3>
+                        <p class="text-gray-600 mb-4">Sustainable weight loss with balanced, satisfying meals that keep you energized throughout the day.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">$89/month</span>
+                            <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+                    <img src="https://readdy.ai/api/search-image?query=Muscle%20building%20high%20protein%20meal%20with%20lean%20beef%2C%20sweet%20potato%2C%20broccoli%20and%20brown%20rice%20on%20a%20white%20plate%2C%20nutritious%20food%20photography%2C%20vibrant%20colors%2C%20clean%20presentation%2C%20professional%20food%20styling&width=400&height=300&seq=meal002&orientation=landscape" alt="Muscle Building Plan" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Muscle Building Plan</h3>
+                        <p class="text-gray-600 mb-4">High-protein meals designed to support muscle growth and recovery for active individuals.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">$99/month</span>
+                            <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+                    <img src="https://readdy.ai/api/search-image?query=Family%20healthy%20meal%20with%20colorful%20vegetables%2C%20whole%20grains%20and%20lean%20protein%20arranged%20on%20a%20white%20plate%2C%20kid-friendly%20nutritious%20food%2C%20bright%20and%20appealing%20presentation%2C%20clean%20food%20photography&width=400&height=300&seq=meal003&orientation=landscape" alt="Family Health Plan" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Family Health Plan</h3>
+                        <p class="text-gray-600 mb-4">Nutritious, family-friendly meals that everyone will love, promoting healthy habits for all ages.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">$129/month</span>
+                            <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://readdy.ai/api/search-image?query=Professional%20female%20nutritionist%20in%20white%20coat%20smiling%20confidently%2C%20holding%20fresh%20vegetables%20and%20fruits%2C%20clean%20medical%20office%20background%2C%20natural%20lighting%2C%20trustworthy%20and%20approachable%20appearance%2C%20professional%20headshot%20style&width=600&height=600&seq=coach001&orientation=squarish" alt="Dr. Sarah Johnson" class="w-full rounded-xl">
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Meet Your Expert Coach</h2>
+                    <h3 class="text-2xl font-semibold text-primary mb-4">Dr. Sarah Johnson, RD</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        With over 15 years of experience in clinical nutrition and wellness coaching, Dr. Johnson has helped thousands of clients achieve their health goals. She holds a Master's degree in Nutritional Science and is a certified Registered Dietitian.
+                    </p>
+                    <div class="space-y-3 mb-8">
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                <i class="ri-check-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-700">15+ years of clinical experience</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                <i class="ri-check-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-700">Certified Registered Dietitian (RD)</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                <i class="ri-check-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-700">Specialized in sustainable weight management</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                <i class="ri-check-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-700">Published researcher in nutrition science</span>
+                        </div>
+                    </div>
+                    <button class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap">
+                        Schedule Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Success Stories</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Real results from real people who transformed their lives with our personalized nutrition approach.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-6">
+                        <img src="https://readdy.ai/api/search-image?query=Happy%20confident%20woman%20in%20her%2030s%20smiling%20brightly%2C%20healthy%20glowing%20skin%2C%20professional%20headshot%2C%20natural%20lighting%2C%20clean%20background%2C%20authentic%20and%20trustworthy%20appearance&width=80&height=80&seq=client001&orientation=squarish" alt="Emily Chen" class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Emily Chen</h4>
+                            <p class="text-gray-600 text-sm">Marketing Manager</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 italic">
+                        "I lost 35 pounds in 6 months and feel more energetic than ever. The personalized meal plans made it so easy to stick to healthy eating habits."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-6">
+                        <img src="https://readdy.ai/api/search-image?query=Athletic%20man%20in%20his%2040s%20with%20confident%20smile%2C%20fit%20and%20healthy%20appearance%2C%20professional%20headshot%2C%20natural%20lighting%2C%20clean%20background%2C%20trustworthy%20and%20successful%20look&width=80&height=80&seq=client002&orientation=squarish" alt="Michael Rodriguez" class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Michael Rodriguez</h4>
+                            <p class="text-gray-600 text-sm">Software Engineer</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 italic">
+                        "The muscle building plan helped me gain 15 pounds of lean muscle while improving my overall health. Dr. Johnson's coaching was invaluable."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-6">
+                        <img src="https://readdy.ai/api/search-image?query=Warm%20smiling%20mother%20in%20her%2030s%20with%20healthy%20radiant%20appearance%2C%20professional%20headshot%2C%20natural%20lighting%2C%20clean%20background%2C%20caring%20and%20confident%20expression&width=80&height=80&seq=client003&orientation=squarish" alt="Jessica Thompson" class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Jessica Thompson</h4>
+                            <p class="text-gray-600 text-sm">Mother of Two</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 italic">
+                        "The family health plan transformed how we eat. My kids actually enjoy healthy meals now, and I have so much more energy to keep up with them."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Latest from Our Blog</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Stay informed with the latest nutrition tips, research, and healthy recipes from our experts.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <article class="bg-white rounded-xl overflow-hidden shadow-sm border">
+                    <img src="https://readdy.ai/api/search-image?query=Colorful%20Mediterranean%20diet%20foods%20including%20olive%20oil%2C%20fresh%20vegetables%2C%20fish%2C%20nuts%20and%20whole%20grains%20arranged%20beautifully%20on%20a%20wooden%20table%2C%20clean%20food%20photography%2C%20natural%20lighting%2C%20healthy%20lifestyle%20concept&width=400&height=250&seq=blog001&orientation=landscape" alt="Mediterranean Diet" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <div class="text-sm text-gray-500 mb-2">November 15, 2025</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">The Science Behind the Mediterranean Diet</h3>
+                        <p class="text-gray-600 mb-4">Discover why the Mediterranean diet is considered one of the healthiest eating patterns and how to incorporate it into your daily life...</p>
+                        <button class="text-primary font-semibold hover:text-primary/80 transition-colors">Read More</button>
+                    </div>
+                </article>
+                <article class="bg-white rounded-xl overflow-hidden shadow-sm border">
+                    <img src="https://readdy.ai/api/search-image?query=Meal%20prep%20containers%20with%20healthy%20balanced%20meals%2C%20colorful%20vegetables%2C%20lean%20proteins%20and%20whole%20grains%2C%20organized%20kitchen%20setup%2C%20clean%20food%20photography%2C%20meal%20planning%20concept&width=400&height=250&seq=blog002&orientation=landscape" alt="Meal Prep" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <div class="text-sm text-gray-500 mb-2">November 12, 2025</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">5 Meal Prep Strategies for Busy Professionals</h3>
+                        <p class="text-gray-600 mb-4">Learn how to save time and eat healthier with these proven meal prep techniques that fit into your busy schedule...</p>
+                        <button class="text-primary font-semibold hover:text-primary/80 transition-colors">Read More</button>
+                    </div>
+                </article>
+                <article class="bg-white rounded-xl overflow-hidden shadow-sm border">
+                    <img src="https://readdy.ai/api/search-image?query=Fresh%20superfoods%20including%20blueberries%2C%20avocado%2C%20salmon%2C%20quinoa%2C%20spinach%20and%20nuts%20arranged%20artistically%20on%20a%20clean%20white%20surface%2C%20vibrant%20colors%2C%20healthy%20eating%20concept%2C%20professional%20food%20styling&width=400&height=250&seq=blog003&orientation=landscape" alt="Superfoods" class="w-full h-48 object-cover object-top">
+                    <div class="p-6">
+                        <div class="text-sm text-gray-500 mb-2">November 8, 2025</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">10 Superfoods to Boost Your Energy Naturally</h3>
+                        <p class="text-gray-600 mb-4">Explore nutrient-dense foods that can help increase your energy levels and support overall health and vitality...</p>
+                        <button class="text-primary font-semibold hover:text-primary/80 transition-colors">Read More</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-primary" style="background-image: url('https://readdy.ai/api/search-image?query=Soft%20abstract%20background%20with%20gentle%20curves%20and%20gradients%20in%20blue%20and%20green%20tones%2C%20minimal%20geometric%20shapes%2C%20clean%20modern%20design%2C%20subtle%20texture%2C%20professional%20and%20calming%20atmosphere&width=1920&height=600&seq=cta001&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-12">
+                <h2 class="text-4xl font-bold text-white mb-6">Ready to Transform Your Health?</h2>
+                <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Book your free consultation today and discover how personalized nutrition can help you achieve your health goals.
+                </p>
+                <div class="space-y-4 mb-8">
+                    <div class="flex items-center justify-center">
+                        <div class="w-6 h-6 flex items-center justify-center mr-3">
+                            <i class="ri-check-line text-white"></i>
+                        </div>
+                        <span class="text-white">30-minute free consultation</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="w-6 h-6 flex items-center justify-center mr-3">
+                            <i class="ri-check-line text-white"></i>
+                        </div>
+                        <span class="text-white">Personalized nutrition assessment</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="w-6 h-6 flex items-center justify-center mr-3">
+                            <i class="ri-check-line text-white"></i>
+                        </div>
+                        <span class="text-white">Custom meal plan recommendations</span>
+                    </div>
+                </div>
+                <button class="bg-white text-primary px-8 py-4 !rounded-button text-lg font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap">
+                    Schedule Free Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <h3 class="text-2xl font-['Pacifico'] text-primary mb-6">Your Brand Logo</h3>
+                    <p class="text-gray-400 mb-6">
+                        Transform your health with personalized nutrition plans and expert coaching tailored to your unique needs.
+                    </p>
+                    <div class="flex space-x-4">
+                        <div class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
+                            <i class="ri-facebook-fill"></i>
+                        </div>
+                        <div class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
+                            <i class="ri-twitter-fill"></i>
+                        </div>
+                        <div class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
+                            <i class="ri-instagram-fill"></i>
+                        </div>
+                        <div class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
+                            <i class="ri-linkedin-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Meal Plans</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Personal Coaching</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Group Programs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Corporate Wellness</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Recipes</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Nutrition Guide</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contact</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-phone-line text-gray-400"></i>
+                            </div>
+                            <span class="text-gray-400">(555) 123-4567</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-mail-line text-gray-400"></i>
+                            </div>
+                            <span class="text-gray-400">info@nutrilife.com</span>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3 mt-1">
+                                <i class="ri-map-pin-line text-gray-400"></i>
+                            </div>
+                            <span class="text-gray-400">123 Health Street<br>Wellness City, WC 12345</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                        © 2025 NutriLife. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6 text-sm">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script id="navigation-mobile">
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('.md\\:hidden');
+            const navigation = document.querySelector('nav');
+            let mobileMenu = null;
+
+            mobileMenuButton.addEventListener('click', function() {
+                if (!mobileMenu) {
+                    mobileMenu = document.createElement('div');
+                    mobileMenu.className = 'md:hidden bg-white border-t border-gray-200 px-4 py-4 space-y-3';
+                    mobileMenu.innerHTML = `
+                        <a href="#" class="block text-gray-700 hover:text-primary transition-colors py-2">Home</a>
+                        <a href="#" class="block text-gray-700 hover:text-primary transition-colors py-2">Meal Plans</a>
+                        <a href="#" class="block text-gray-700 hover:text-primary transition-colors py-2">Coaching</a>
+                        <a href="#" class="block text-gray-700 hover:text-primary transition-colors py-2">Blog</a>
+                        <a href="#" class="block text-gray-700 hover:text-primary transition-colors py-2">About</a>
+                        <a href="#" class="block text-gray-700 hover:text-primary transition-colors py-2">Contact</a>
+                    `;
+                    navigation.appendChild(mobileMenu);
+                } else {
+                    mobileMenu.style.display = mobileMenu.style.display === 'none' ? 'block' : 'none';
+                }
+            });
+        });
+    </script>
+
+    <script id="smooth-scrolling">
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('button');
+            buttons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    if (this.textContent.includes('Get Your Meal Plan') || 
+                        this.textContent.includes('Book Consultation') || 
+                        this.textContent.includes('Schedule')) {
+                        e.preventDefault();
+                        console.log('Booking system integration needed');
+                    }
+                });
+            });
+        });
+    </script>
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = '3vC1N_3Y9gw0Q_s46isnIQ';
+    window.host = 'readdy.ai';
+</script>
+</body>
+</html>
